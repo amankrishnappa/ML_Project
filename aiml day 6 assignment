@@ -1,0 +1,272 @@
+
+@@ -4,7 +4,7 @@
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOh5s4g3aefC3VAk7Nvkfz4",
+      "authorship_tag": "ABX9TyPsALTUb0KhokF7BT4eW4jf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+@@ -28,7 +28,7 @@
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "execution_count": 3,
+      "metadata": {
+        "id": "TzTENU390fOa"
+      },
+@@ -47,7 +47,7 @@
+      "metadata": {
+        "id": "THMBLwKZ0qPa"
+      },
+      "execution_count": null,
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+@@ -58,7 +58,7 @@
+      "metadata": {
+        "id": "1nbiXlB40sS4"
+      },
+      "execution_count": null,
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+@@ -69,7 +69,7 @@
+      "metadata": {
+        "id": "NkHCDk3l0uCK"
+      },
+      "execution_count": null,
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+@@ -80,7 +80,7 @@
+      "metadata": {
+        "id": "aumBLidq0v_5"
+      },
+      "execution_count": null,
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+@@ -101,7 +101,7 @@
+      "metadata": {
+        "id": "MR6WtRJL1MBE"
+      },
+      "execution_count": null,
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+@@ -115,9 +115,9 @@
+          "height": 74
+        },
+        "id": "3M5jO8qN1ZY0",
+        "outputId": "7b0625bd-bb3e-4fa7-922c-2d39219f074c"
+        "outputId": "62e7af81-7d44-449b-ab0c-99efe91538ab"
+      },
+      "execution_count": null,
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+@@ -145,19 +145,19 @@
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GwHwPg_c1frY",
+        "outputId": "bc729791-a251-4dc0-819b-086fe5ef9540"
+        "outputId": "0fb0e554-c7d3-4d58-9375-10de28238b8d"
+      },
+      "execution_count": null,
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1,\n",
+              "       1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1,\n",
+              "       1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0,\n",
+              "       1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1,\n",
+              "       1, 0, 1])"
+              "array([1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1,\n",
+              "       0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0,\n",
+              "       0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0,\n",
+              "       0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1,\n",
+              "       1, 1, 1])"
+            ]
+          },
+          "metadata": {},
+@@ -177,15 +177,15 @@
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AhRysmlc1ty5",
+        "outputId": "99c711c1-66e4-4cf5-ddc4-2dac73a6a078"
+        "outputId": "cc21483a-ea55-41c1-c219-c89a1846d49d"
+      },
+      "execution_count": null,
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.8351648351648352"
+              "0.7912087912087912"
+            ]
+          },
+          "metadata": {},
+@@ -196,7 +196,7 @@
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Hence we have got an accuracy of 83.5% on comparing the predicted output versus the original output..."
+        "Hence we have got an accuracy of 79.12% on comparing the predicted output versus the original output..."
+      ],
+      "metadata": {
+        "id": "TXnX9NNo15bk"
+@@ -234,7 +234,7 @@
+          "height": 74
+        },
+        "id": "_N70wHAN3Kkn",
+        "outputId": "cb51ed38-4162-4209-9557-3fd7d5f9699e"
+        "outputId": "6ee048cb-5b2f-4b4c-9de3-7ddc935885e2"
+      },
+      "execution_count": 13,
+      "outputs": [
+@@ -256,7 +256,7 @@
+    {
+      "cell_type": "code",
+      "source": [
+        "y_pred = neigh.predict(x_test)"
+        "y_pred_knn = neigh.predict(x_test)"
+      ],
+      "metadata": {
+        "id": "dNS7-ZmJ4UOA"
+@@ -267,34 +267,34 @@
+    {
+      "cell_type": "code",
+      "source": [
+        "accuracy = accuracy_score(y_test, y_pred)\n",
+        "accuracy"
+        "accuracy_knn = accuracy_score(y_test, y_pred_knn)\n",
+        "accuracy_knn"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gKQGfawP4ZJP",
+        "outputId": "562bac5c-d47e-4aa2-d73b-a628b524dc35"
+        "outputId": "3d0f250e-4b6d-4b60-afd3-2c520e8d12c1"
+      },
+      "execution_count": 17,
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.7142857142857143"
+              "0.6043956043956044"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 17
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Hence, using KNN we have got an accuracy score of 71.4% which is a pretty good score!! However we may be able to do better by optimizing the value of K"
+        "Hence, using KNN we have got an accuracy score of 60.4% which is a pretty good score!! However we may be able to do better by optimizing the value of K"
+      ],
+      "metadata": {
+        "id": "alQg0zpn4eXm"
+@@ -319,7 +319,7 @@
+      "metadata": {
+        "id": "2mlCQMVb45hQ"
+      },
+      "execution_count": 18,
+      "execution_count": 16,
+      "outputs": []
+    },
+    {
+@@ -330,7 +330,7 @@
+      "metadata": {
+        "id": "DXIdrsEn5Mb2"
+      },
+      "execution_count": 19,
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+@@ -341,51 +341,52 @@
+      "metadata": {
+        "id": "n_-Dzdye5UBo"
+      },
+      "execution_count": 20,
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "y_pred = clf.predict(x_test)"
+        "y_pred_dtc = clf.predict(x_test)"
+      ],
+      "metadata": {
+        "id": "Xs6CF9c05YcL"
+      },
+      "execution_count": 22,
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "accuracy = metrics.accuracy_score(y_test, y_pred)\n",
+        "accuracy"
+        "accuracy_dtc = metrics.accuracy_score(y_test, y_pred_dtc)\n",
+        "accuracy_dtc"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EGBtJBH45a67",
+        "outputId": "73b09c7b-24ba-4448-d16c-ee42720d3b1f"
+        "outputId": "87aca5a1-a375-4529-c7f4-126cbac772a6"
+      },
+      "execution_count": 24,
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.8131868131868132"
+              "0.7802197802197802"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 24
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Hence we have got an Classification rate of 67.53% which is considered as a pretty good accuracy score. But we can improve this accuracy score by tuing the parameters in the decision Tree Algorithm."
+        "Hence we have got an Classification rate of 78.02% which is considered as a\n",
+        "pretty good accuracy score. But we can improve this accuracy score by tuing the parameters in the decision Tree Algorithm."
+      ],
+      "metadata": {
+        "id": "tSprJ4DV5kJp"
